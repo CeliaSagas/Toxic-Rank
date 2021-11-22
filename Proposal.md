@@ -1,4 +1,4 @@
-![Banner](https://github.com/CeliaSagas/EEG-Classification/blob/ea04509c7d718a20ba113980dbb6475299d47efe/img/EEG%20Class.jpg)
+![Banner](https://github.com/CeliaSagas/Toxic-Rank/blob/cd126104b0888344df38e08faaf918457d3d12a1/img/Toxic%20Rank.jpg)
 
 
 
@@ -65,4 +65,4 @@ Ranking Toxic Comments on Wikipedia Talk Page Comments
 
 1. What would a minimum viable product (MVP) look like for this project?
 
-    - My MVP will be a ranking model that will assign a relative toxicity score for each comment. 
+    - My MVP will be a ranking model that will assign a relative toxicity score for each comment.
