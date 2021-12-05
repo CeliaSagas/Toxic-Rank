@@ -16,7 +16,7 @@ I will be using both methods in order to better assess what works best for this 
 # Cleaning
 
 <br><br>
-Text cleaning involves removing punctuation, stopwords, underscores, and empty spaces, as well as characters from other languages.
+Text cleaning involves removing punctuation, stopwords, underscores, repeating letters (such as "aaaaaahhhhhhhhh") and empty spaces, as well as characters from other languages.
 
         def to_token(text):
 
@@ -38,15 +38,7 @@ Text cleaning involves removing punctuation, stopwords, underscores, and empty s
 
         return text
 
-I am currently unable to remove Greek letters from the dataset, as they are unicode, and have left them in for now.
 
-<center><img src="https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/data.png" width = 750></center>
-
-
-I plan on finding a way to translate all text and include it for modeling-- however, it is unclear whether the human coders were given translated text or not.
-
-
-Comparing scores generated from untranslated text and translated text should answer this question.
 
 
 # Topic Modelling
