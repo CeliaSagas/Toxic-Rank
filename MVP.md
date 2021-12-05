@@ -5,7 +5,7 @@
 
 # Toxic
 **Ranking Toxicity in Wikipedia Talk Page Comments**
-***
+
 <br><br>
 The goal of this project is to give individual comments a toxicity score which can be used to make comparisons between comments in a dataset.
 
@@ -14,7 +14,7 @@ Cleaning methods may be important for topic modeling that may help with toxic co
 I will be using both methods in order to better assess what works best for this data.
 
 # Cleaning
-***
+
 <br><br>
 Text cleaning involves removing punctuation, stopwords, underscores, and empty spaces, as well as characters from other languages.
 
@@ -40,7 +40,7 @@ Text cleaning involves removing punctuation, stopwords, underscores, and empty s
 
 I am currently unable to remove Greek letters from the dataset, as they are unicode, and have left them in for now.
 
-<img src="https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/data.png" width = 100)
+<img src="https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/data.png" width = 100>
 
 
 I plan on finding a way to translate all text and include it for modeling-- however, it is unclear whether the human coders were given translated text or not.
@@ -50,7 +50,7 @@ Comparing scores generated from untranslated text and translated text should ans
 
 
 # Topic Modelling
-***
+
 <br><br>
 
 Comparing Count Vectorization with TFIDF reveals a clear advantage for TFIDF with this dataset. I chose 10 topics on purpose in order to view the top 10 distinguishing characteristics for this dataset. However, it's most probable that I will be using the top five.
