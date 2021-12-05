@@ -38,7 +38,7 @@ Text cleaning involves removing punctuation, stopwords, underscores, and empty s
 
 I am currently unable to remove Greek letters from the dataset, as they are unicode, and have left them in for now.
 
-![Data](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv.png)
+![Data](https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/data.png)
 
 
 I plan on finding a way to translate all text and include it for modeling-- however, it is unclear whether the human coders were given translated text or not.
@@ -51,7 +51,7 @@ Comparing scores generated from untranslated text and translated text should ans
 
 Comparing Count Vectorization with TFIDF reveals a clear advantage for TFIDF with this dataset. I chose 10 topics on purpose in order to view the top 10 distinguishing characteristics for this dataset. However, it's most probable that I will be using the top five.
 
-![Topics in NMF model with Count Vectorizer](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv.png)
+![Topics in NMF model with Count Vectorizer](https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/Count_Vectorize.png)
 
 The Count Vectorizer topic model reveals that topics are based primarily on one word alone, making it difficult to understand what these vectors correspond to. Additionally, at least two topics seem highly similar and may be difficult to distinguish. Finally, all top 10 topics derived from Count Vectorization are toxic in nature, which will make it more difficult to distinguish between toxic and non-toxic comments.
 
@@ -59,6 +59,6 @@ The Count Vectorizer topic model reveals that topics are based primarily on one 
 
 
 
-![Topics in NMF model with TFIDF Vectorizer](https://github.com/CeliaSagas/EEG-Classification/blob/691c4e93ac2909a53e1485a442bf4eb784d7ac05/img/F_score_cv.png)
+![Topics in NMF model with TFIDF Vectorizer](https://github.com/CeliaSagas/Toxic-Rank/blob/5cfdd40f8d814b721ee9dce6eaef922ac6ae9ec9/img/TFIDF_Vectorize.png)
 
 The individual topic vectors in the TFIDF Vectorizer topic model are comprised of a wider set of words that facilitate topic comprehension for modeling. Additionally, the individual topics derived from the model are not similar, making interpretation easier. Finally, topics derived are both toxic ("fuck") and non-toxic ("articl") which will make it easier to distinguish between toxic and non-toxic comments.
