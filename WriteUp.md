@@ -1,4 +1,4 @@
-![Header](https://github.com/CeliaSagas/Toxic-Rank/blob/cd126104b0888344df38e08faaf918457d3d12a1/img/Toxic%20Rank.jpg)
+![Header](https://github.com/CeliaSagas/Toxic-Rank/blob/7025a22bbf370fe1d986bbfcab512d8c84b5ce49/img/Toxic%20Rank.jpg)
 
 
 
