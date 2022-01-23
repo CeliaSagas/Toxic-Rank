@@ -45,7 +45,7 @@ The metric used for evaluation was f1 and ROC AUC, which are the closest approxi
 
 Finally, the training and holdout data were combined to train the model for the Kaggle competition data, consisting of 7,537 original and unique comments.
 
-**Logistic Regression 5-fold CV Scores: 928 Features**
+**Logistic Regression 5-fold CV Scores: 25 Features**
 
   -	ROC AUC: 64.7%
   -	Precision: 81.8%
