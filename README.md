@@ -9,11 +9,18 @@ Ranking Toxic Comments on Wikipedia Talk Page Comments
 
 Identifying toxic comments is a data science problem, but deciding what criteria is considered toxic is an ethical one. Historically, applications of data science in the fields of ethics and morality have yielded mixed results: it's hard to teach a machine the nuances of valence, hubris, and internet humor while also monitoring datasets for implicit and explicit bias towards minority groups.
 
-Count Vectorization revealed very clear distinctions between comments rated as more toxic versus those rated as less toxic:
+Count Vectorization revealed very clear distinctions between comments rated as more toxic versus those rated as less toxic.
+
+**Less Toxic World Cloud:**
+
+![Non Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/16d6d90383717598162031f4cec03965b5c8d4ce/img/not_toxic_wordcloud.png)
+
+
+**More Toxic Word Cloud:**
 
 ![Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/16d6d90383717598162031f4cec03965b5c8d4ce/img/toxic_wordcloud.png)
 
-![Non Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/16d6d90383717598162031f4cec03965b5c8d4ce/img/not_toxic_wordcloud.png)
+
 
 Topic Modeling with NMF revealed that TFIDF vectorization is a more effective tool for summarizing patterns in the text data compared to Count vectorization. T
 
