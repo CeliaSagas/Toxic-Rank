@@ -11,9 +11,9 @@ Identifying toxic comments is a data science problem, but deciding what criteria
 
 Count Vectorization revealed very clear distinctions between comments rated as more toxic versus those rated as less toxic:
 
-![Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/7025a22bbf370fe1d986bbfcab512d8c84b5ce49/img/Toxic%20Rank.jpg)
+![Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/16d6d90383717598162031f4cec03965b5c8d4ce/img/toxic_wordcloud.png)
 
-![Non Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/7025a22bbf370fe1d986bbfcab512d8c84b5ce49/img/Toxic%20Rank.jpg)
+![Non Toxic Word Cloud](https://github.com/CeliaSagas/Toxic-Rank/blob/16d6d90383717598162031f4cec03965b5c8d4ce/img/not_toxic_wordcloud.png)
 
 Topic Modeling with NMF revealed that TFIDF vectorization is a more effective tool for summarizing patterns in the text data compared to Count vectorization. T
 
